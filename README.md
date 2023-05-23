@@ -12,9 +12,6 @@ In the paper, we used four different sources:
 
 
 
-## Code
-
-
 # Reference
 
 - Finlayson, S. G., LePendu, P., and Shah, N. H. (2014). Building the graph of medicine from millions of clinical narratives. Scientific data, 1:140032.
