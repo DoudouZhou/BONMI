@@ -12,3 +12,10 @@ In the paper, we used four different sources:
 
 
 ## Code
+
+
+# Reference
+
+- Finlayson, S. G., LePendu, P., and Shah, N. H. (2014). Building the graph of medicine from millions of clinical narratives. Scientific data, 1:140032.
+
+- Johnson, A. E., Pollard, T. J., Shen, L., Li-Wei, H. L., Feng, M., Ghassemi, M., Moody, B., Szolovits, P., Celi, L. A., and Mark, R. G. (2016). Mimic-iii, a freely accessible critical care database. Scientific data, 3(1):1–9.
