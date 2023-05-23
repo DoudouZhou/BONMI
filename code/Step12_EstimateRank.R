@@ -1,5 +1,5 @@
 #Estimate of rank and weight
-#How to choose rank: by the spearman similarity of a validation set
+
 args <- commandArgs(TRUE)
 
 s0 <- as.numeric(args[[1]])
@@ -47,16 +47,7 @@ for(r in seq(100,4000,by=100)){
   sd = Sigma2(fit,r)
   
   res = c(r,sd)
-  if(s0==4){
-    res1 = CoSim(Cos)
-    res2 = CoSim2(Cos)
-    res = c(res,res1,res2)
-  }else{
-    res1 = CoSim_CUI(Cos)
-    res2 = CoSim_CUI2(Cos)
-    res3 = CoSim_CUI3(Cos)
-    res = c(res,res1,res2,res3)
-  }
+
   Res = rbind(Res,res)
 }
 
